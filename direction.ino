@@ -1,3 +1,31 @@
+void Music_Control(uint8_t state)
+{
+  if(state == 0)
+  {
+    digitalWrite(MUSIC1,LOW);
+    delay(1000);
+    digitalWrite(MUSIC1,HIGH);
+    digitalWrite(MUSIC2,HIGH);
+    digitalWrite(MUSIC3,HIGH);
+  }
+  else if(state == 1)
+  {
+    digitalWrite(MUSIC2,LOW);
+    delay(1000);
+    digitalWrite(MUSIC1,HIGH);
+    digitalWrite(MUSIC2,HIGH);
+    digitalWrite(MUSIC3,HIGH);
+  }
+  else if(state == 2)
+  {
+    digitalWrite(MUSIC3,LOW);
+    delay(1000);
+    digitalWrite(MUSIC1,HIGH);
+    digitalWrite(MUSIC2,HIGH);
+    digitalWrite(MUSIC3,HIGH);
+  }
+}
+
 void first_part(){   
       strip1.setPixelColor(0, COLOR);
 //      strip1.show();
@@ -33,7 +61,7 @@ void first_part(){
       strip1.setPixelColor(i, COLOR);
 //      strip1.show();
      } 
-//     strip1.show();               
+     strip1.show();               
   }
 void second_part(){
 
@@ -72,7 +100,7 @@ void second_part(){
 
       strip1.setPixelColor(511, COLOR);
 //      strip1.show();
-//    strip1.show();
+    strip1.show();
   }
 void Third_part(){   
      for(int i=15;i<=17;i++){
@@ -107,7 +135,7 @@ void Third_part(){
       strip1.setPixelColor(i, COLOR);
 //      strip1.show();
      }
-//     strip1.show();                
+     strip1.show();                
   }
 
  void Fourth_part(){   
@@ -143,7 +171,7 @@ void Third_part(){
       strip1.setPixelColor(i, COLOR);
 //      strip1.show();
      }  
-//     strip1.show();              
+     strip1.show();              
   }
 
 void forword()
@@ -151,7 +179,7 @@ void forword()
   for(int i=128;i<=383;i++){
       strip1.setPixelColor(i, COLOR);     
      } 
-//  strip1.show();
+  strip1.show();
   }
 void First_down(){   
       for(int i=8;i<=23;i++){
@@ -186,7 +214,7 @@ void First_down(){
       strip1.setPixelColor(i, COLOR);
 //      strip1.show();
      }
-//     strip1.show();              
+     strip1.show();              
   }
 void First_up(){   
       for(int i=0;i<=7;i++){
@@ -225,7 +253,7 @@ void First_up(){
       strip1.setPixelColor(i, COLOR);
 //      strip1.show();
      }
-//     strip1.show();              
+     strip1.show();              
   }
 void Second_down(){   
       for(int i=264;i<=279;i++){
@@ -260,7 +288,7 @@ void Second_down(){
       strip1.setPixelColor(i, COLOR);
 //      strip1.show();
      }
-//     strip1.show();              
+     strip1.show();              
   }
 void Second_up(){   
      for(int i=256;i<=263;i++){
@@ -299,5 +327,5 @@ void Second_up(){
       strip1.setPixelColor(i, COLOR);
 //      strip1.show();
      }
-//     strip1.show();
+     strip1.show();
   }
