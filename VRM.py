@@ -1,7 +1,7 @@
 // Define the analog input pin for VRM
 #define VRM_PIN A0
 
-// Define the turn states
+// Define the turn 
 #define LEFT 1
 #define RIGHT 2
 #define FORWARD 0
