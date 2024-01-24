@@ -1,4 +1,4 @@
-void Music_Control(uint8_t state)
+void Music_Control(uint8_t state)//intialize state
 {
   if(state == 0)
   {
