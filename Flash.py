@@ -3,8 +3,8 @@
 #define echoPin 7 // Echo Pin for the ultrasonic sensor
 #define buttonPin 8 // Button Pin for the three-positioned switch
 #define VRMPin A0 // VRM Pin for the voltage regulator module
-#define BT1TX 10 // Bluetooth 1 TX Pin for the turning detection system
-#define BT1RX 11 // Bluetooth 1 RX Pin for the turning detection system
+#define BT1TX 10 // Bluetooth 1 TX Pin for the turning  system
+#define BT1RX 11 // Bluetooth 1 RX Pin for the turning  system
 #define BT2TX 12 // Bluetooth 2 TX Pin for the display board
 #define BT2RX 13 // Bluetooth 2 RX Pin for the display board
 #define LED1R 2 // LED 1 Red Pin for the first LED display board
