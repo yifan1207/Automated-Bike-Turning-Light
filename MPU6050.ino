@@ -24,7 +24,7 @@ Kalman kalmanRoll1; //Roll角滤波器
 Kalman kalmanPitch1; //Pitch角滤波器
 
 void setup() {
-  Serial.begin(9600); //初始化串口，指定波特率
+  Serial.begin(9600); //初始串口，指定波特率
   Wire.begin(); //初始化Wire库
   WriteMPU1Reg1(0x6B, 0); //启动MPU16050设备
 
