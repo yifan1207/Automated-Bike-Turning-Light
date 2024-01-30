@@ -2,7 +2,7 @@
 #include <Wire.h>
 #include <SoftwareSerial.h>
 
-#define PIN1 6
+#define PINs
 
 const int MUSIC1 = 3;//
 const int MUSIC2 = 4;//
