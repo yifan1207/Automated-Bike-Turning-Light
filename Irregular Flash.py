@@ -1,10 +1,10 @@
 // Define the pins for the LED display boards
-#define LED1R 2 // LED 1 Red Pin for the first LED  board
-#define LED1G 3 // LED 1 Green Pin for the first LED  board
+#define LED1R 2 // LED 1 Red Pin for the first LED  
+#define LED1G 3 // LED 1 Green Pin for the first LED  
 #define LED1B 4 // LED 1 Blue Pin for the first LED  board
-#define LED2R 5 // LED 2 Red Pin for the second LED display board
-#define LED2G 6 // LED 2 Green Pin for the second LED display board
-#define LED2B 7 // LED 2 Blue Pin for the second LED display board
+#define LED2R 5 // LED 2 Red Pin for the second LED  board
+#define LED2G 6 // LED 2 Green Pin for the second LED  board
+#define LED2B 7 // LED 2 Blue Pin for the second LED  board
 #define LED3R 8 // LED 3 Red Pin for the third LED display board
 #define LED3G 9 // LED 3 Green Pin for the third LED display board
 #define LED3B 10 // LED 3 Blue Pin for the third LED display board
