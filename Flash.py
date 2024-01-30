@@ -26,7 +26,7 @@
 // Define the constants for the maximum and minimum range, the threshold angle, the number of cycles, the delay value, and the RGB values for the display colors
 #define maximumRange 200 // Maximum range needed for the ultrasonic sensor
 #define minimumRange 0 // Minimum range needed for the ultrasonic sensor
-#define thresholdAngle 15 // Threshold angle for the VRM to detect a turn
+#define thresholdAngle 15 // Threshold angle for the VRM to detect turn
 #define numCycles 10 // Number of cycles for the irregular flash pattern
 #define delayValue 1000000 // Delay value for the sound function
 #define redValue 255 // Red value for the display color
