@@ -26,7 +26,7 @@ Kalman kalmanPitch1; //Pitch角滤波器
 void setup() {
   Serial.begin(9600); //初始化串口，指定波特率
   Wire.begin(); //初始化Wire库
-  WriteMPU1Reg1(0x6B, 0); //启动MPU16050设备
+  WriteMPU1Reg1(0x6B, 0); //启动MPU16050
 
   Calibration1(); //执行校准
   nLastTime1 = micros(); //记录当前时间
