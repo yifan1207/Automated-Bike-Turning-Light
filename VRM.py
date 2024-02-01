@@ -14,7 +14,7 @@
 int turn_state = FORWARD;
 
 void setup() {
-  // Initialize serial communication
+  // Initialize serial communications
   Serial.begin(9600);
 }
 
