@@ -1,4 +1,4 @@
-//连线方法
+
 //MPU1-UNO
 //VCC-VCC
 //GND-GND
