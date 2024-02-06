@@ -1,8 +1,8 @@
 #include <SoftwareSerial.h> 
-//intialize sender
+//initialize sender
 // Pin10为RX，接HC05的TXD
 // Pin11为TX，接HC05的RXD
-//定义接口
+//define pins
 //const int M1 = 2; //define ENA Pin
 
 const int KEY1 = 2;//
