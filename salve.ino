@@ -1,7 +1,7 @@
 #include <Adafruit_NeoPixel.h>
 #include <Wire.h>
 
-#define PIN1 6
+#define PIN1 6s
 // Parameter 1 = number of pixels in strip
 // Parameter 2 = pin number (most are valid)
 // Parameter 3 = pixel type flags, add together as needed:
