@@ -4,7 +4,7 @@
 //GND-GND
 //SCL-A5
 //SDA-A4
-//INT-2 (Optional)
+//INT-2
 
 #include <Kalman.h>
 #include <Wire.h>
