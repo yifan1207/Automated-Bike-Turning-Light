@@ -1,4 +1,4 @@
-// Define the pins for the VRM, the Bluetooth modules, the LED display boards, the audio player, the switches, and the battery 
+// Define the pins for the VRM, the Bluetooth modules, the LED display boards, the audio player, the switches, and the battery  
 #define trigPin 6 // Trigger Pin for the ultrasonic sensor
 #define echoPin 7 // Echo Pin for the ultrasonic sensor 
 #define buttonPin 8 // Button Pin for the three-positioned swithc
