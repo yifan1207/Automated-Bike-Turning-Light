@@ -1,4 +1,4 @@
-// Define the pins for the LED display boards  
+// Define the pins for the LED display boards 
 #define LED1R 2 // LED 1 Red Pin for the first LED  
 #define LED1G 3 // LED 1 Green Pin for the first LED  
 #define LED1B 4 // LED 1 Blue Pin for the first LED  board
