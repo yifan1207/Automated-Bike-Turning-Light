@@ -1,4 +1,4 @@
-#include <SoftwareSerial.h>
+#include <SoftwareSerial.h> 
 //initialize sender
 // Pin10为RX，接HC05的TXD
 // Pin11为TX，接HC05的RXD
