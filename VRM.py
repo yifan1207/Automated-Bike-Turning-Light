@@ -1,4 +1,4 @@
-// Define the analog input pin for VRM
+// Define the analog input pin for VRM 
 #define VRM_PIN A0 
 
 // Define the turn 
