@@ -1,4 +1,4 @@
-#include <Adafruit_NeoPixel.h> 
+#include <Adafruit_NeoPixel.h>
 #include <Wire.h>
  
 #define PIN1 6s
