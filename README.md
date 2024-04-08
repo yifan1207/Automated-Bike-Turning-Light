@@ -19,7 +19,7 @@ First, as the user opens the display screen and the turning detection system, th
 ![image](https://github.com/yifan1207/Automated-Bike-Turning-Light/assets/117659507/77eea1dc-fa1f-4ec0-8189-fd25b575079e)
 ![image](https://github.com/yifan1207/Automated-Bike-Turning-Light/assets/117659507/9fec83d8-5a22-4688-9936-d5100d4d2cd9)
 
-
+ 
 
 **Display System**
 
